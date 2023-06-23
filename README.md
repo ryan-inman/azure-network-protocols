@@ -107,7 +107,7 @@ To observe DNS traffic in Wireshark, filter by DNS or the port (udp.port == 53) 
 <br />
 
 <p>
-Lastly, we will observe RDP traffic. Filter by RDP and observe how it is spamming nonstop. This is because there is a live RDP session from your machine to VM1!
+Lastly, we will observe RDP traffic. Filter by the port (tcp.port == 3389) and observe how it is spamming nonstop. This is because there is a live RDP session from your machine to VM1!
 </p>
 <br />
 
