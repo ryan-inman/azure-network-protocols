@@ -62,12 +62,12 @@ We can now open Wireshark from the start menu by searching for it. Select Ethern
 <br />
 
 <p>
-Go back to the Azure Portal and select VM2 to find it's Private IP Address. We can now ping the Private IP from VM1 to test the connection between the two machines.
+Go back to the Azure Portal and select VM2 to find it's Private IP Address. We will ping the Private IP from VM1 to test the connection between the two machines.
 </p>
 <br />
 
 <p>
-Go back to VM1 and filter by ICMP traffic in Wireshark. Additionally, open Powershell and ping the Private IP Address of VM2. Notice the filtered traffic we see in Wireshark from the VMs communicating. We can also ping other IP addresses and domains such as www.google.com.
+Go back to VM1 and first filter by ICMP traffic in Wireshark. Additionally, open Powershell and ping the Private IP Address of VM2. Notice the filtered traffic we see in Wireshark from the VMs communicating. We can also ping other IP addresses and domains such as www.google.com.
 </p>
 <br />
 
